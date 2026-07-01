@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio Material Design</title>
+
+    <!-- MaterializeCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Iconos Material -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="blue darken-3">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Mi Sitio</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="section center">
+        <h3 class="header">Bienvenido al Laboratorio Material Design</h3>
+        <p class="flow-text">Construiremos una interfaz moderna y responsiva.</p>
+
+        <a class="btn-large waves-effect waves-light blue darken-3 modal-trigger" href="#modal1">
+            <i class="material-icons left">code</i> Empezar
+        </a>
+    </div>
+
+    <!-- Servicios -->
+    <div class="container" id="servicios">
+        <h4 class="center">Servicios</h4>
+
+        <div class="row">
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Desarrollo Web</span>
+                        <p>Diseños modernos con Material Design.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Apps Móviles</span>
+                        <p>Interfaces fluidas y responsivas.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">UI/UX</span>
+                        <p>Experiencias centradas en el usuario.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Portafolio -->
+    <div class="container" id="portafolio">
+        <h4 class="center">Portafolio</h4>
+
+        <div class="row">
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Proyecto 1</span>
+                        <p>Sitio web corporativo desarrollado con Materialize.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Proyecto 2</span>
+                        <p>Aplicación móvil con diseño moderno y responsivo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Proyecto 3</span>
+                        <p>Dashboard administrativo con Material Design.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="container" id="contacto">
+        <h4 class="center">Contacto</h4>
+
+        <div class="row">
+            <form class="col s12">
+
+                <div class="input-field col s6">
+                    <input id="nombre" type="text">
+                    <label for="nombre">Nombre</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="email" type="email">
+                    <label for="email">Correo</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <textarea id="mensaje" class="materialize-textarea"></textarea>
+                    <label for="mensaje">Mensaje</label>
+                </div>
+
+                <button class="btn waves-effect blue darken-3" type="submit">
+                    Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>¡Bienvenido!</h4>
+            <p>Este es un ejemplo de un Modal utilizando Materialize CSS.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close btn blue darken-3">Cerrar</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer teal darken-3">
+        <div class="container center">
+            <p>© 2025 Laboratorio Material Design</p>
+
+            <a href="#" class="white-text">
+                <i class="material-icons">facebook</i>
+            </a>
+
+            <a href="#" class="white-text">
+                <i class="material-icons">public</i>
+            </a>
+
+            <a href="#" class="white-text">
+                <i class="material-icons">mail</i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JS Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
